@@ -1,0 +1,24 @@
+<div class="container mt-5">
+  <h1 class="row justify-content-center">Bienvenue sur The Gossip Project !</h1>
+</div>
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <% @gossips.each do |gossip| %>
+      <div class="card col-5 mb-3 mr-3 p-0">
+        <div class="card-header">
+          <h5 class="card-title"><%= gossip.author %></h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text"><%= gossip.content %></p>
+        </div>
+        <div class="card-footer text-muted">
+          <%= link_to "Détails", "/gossip/show/#{gossip.id}" %>
+           -
+          <%= link_to "Delete", "/gossip/delete/#{gossip.id}" , method: :delete %>
+           -
+          <%= link_to "Update", "/gossip/update/#{gossip.id}"%>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
