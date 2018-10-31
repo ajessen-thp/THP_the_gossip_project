@@ -3,10 +3,6 @@
 Dans cette version de ce projet, j'ai une base de donnée très réduite mais il y un peu de front avec un ajout, update, delete et affichage des gossips.
 
 ## How to use
-
-Pour commencer il faut cloner le projet :
-```
-git clone https://github.com/JostQ/The_Gossip_Project
 ```
 
 Ensuite installe les dépendances :
@@ -39,7 +35,7 @@ localhost:3000
 
 Lien vers Heroku :
 ```
-https://the-gossip-project-513.herokuapp.com/
+https://THP-the-gossip-project-1995.herokuapp.com/
 ```
 
-## Fait par : Quentin (@Dremsis)
+
